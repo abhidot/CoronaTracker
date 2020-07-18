@@ -1,0 +1,29 @@
+.about {
+    margin-left: 40%;
+    display: flexbox;
+}
+.about h1 {
+    font-size: 45px;
+    padding-left: auto;
+    padding-top: 20%;
+    border-bottom:3px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+.about  li {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.about ul {
+    padding-top: 20px;
+    list-style: disc;
+}
+
+@media(max-width:770px){
+    .about{
+        margin-left: 2%;
+    }
+    
+}

@@ -1,0 +1,29 @@
+.precautions h1{
+    font-size: 45px;
+    padding: 7% 0 0 10%;
+    width: 20%;
+    border-bottom:3px solid blue;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content img {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content ol {
+    margin-left: 35px;
+    font-size: x-large;
+}
+.content ol li span{
+    color:red;
+}

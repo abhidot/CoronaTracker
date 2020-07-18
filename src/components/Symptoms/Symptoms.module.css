@@ -1,0 +1,39 @@
+.symptoms h1{
+    font-size: 45px;
+    padding: 7% 0 0 10%;
+    width: 20%;
+    border-bottom:3px solid red;
+    justify-content: center;
+}
+
+.symptoms ul {
+    list-style: none;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.symptoms li {
+    display: flex; 
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 221, 128);
+    border-radius: 50%;
+    margin: 20px 5px;
+    position: relative;
+    margin-bottom: 80px;
+    box-shadow: -6px -6px 10px rgb(250, 242, 167) ,
+    6px 6px 10px rgba(155, 148, 93, 0.54);
+}
+
+.symptoms li:hover {
+    box-shadow: inset -4px -4px 6px rgb(250, 242, 167) ,
+    inset 4px 4px 6px rgba(155, 148, 93, 0.54);
+}
+
+.symptoms li span {
+    padding-left: 10px;
+    font-size: larger;
+}
